@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <form ng-submit="addPost(post)">
+    <input class="form-control" type="text" name="title" ng-model="post.title" placeholder="Título" />
+    {{post.title}}
+    <input class="form-control" type="text" name="content" ng-model="post.content" placeholder="Conteúdo" />
+    {{post.content}}
+    <button class="btn btn-primary" type="submit">Postar</button>
+  </form>
+</div>
